@@ -2,11 +2,11 @@ package Tema2Bucles;
 
 import java.util.Scanner;
 
-public class Acti7Pag59 {
+public class Acti72Pag59 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-				
+		
 		//Variables
 		int i = 4;
 		int key= 1996;
@@ -29,4 +29,5 @@ public class Acti7Pag59 {
 		}
 		scan.close();
 	}
+
 }
