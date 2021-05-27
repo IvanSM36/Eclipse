@@ -10,23 +10,23 @@ public class Acti10pag60 {
 		System.out.println("Inserte un numero para calcular la media de positivos.");
 		int num;
 		int i= 0;
-		int media;
+		int suma = 0;
+		int media = 0;
+		
 		
 		do {
 			num= scan.nextInt();
 			if(num > 0) {			
 				System.out.println("Vuelve a insertar, para salir introduzca un numero negativo.");
 				i++;
+				suma= suma + num;
+				media = suma/i;
 			}else {
-				System.out.println("Fin");	
-				
-				media = (num -1)/i;
+				System.out.println("Fin");					
 				System.out.println("La media de los numeros positivos es " + media);
 			}
 		}
-		while(num >=0);
-		
-		
+		while(num >=0);		
 	}
 
 }
