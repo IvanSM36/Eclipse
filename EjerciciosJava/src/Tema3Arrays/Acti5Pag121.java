@@ -40,5 +40,6 @@ public class Acti5Pag121 {
 			}
 			System.out.println();
 		}	
+		scan.close();
 	}
 }
